@@ -46,8 +46,9 @@ color: #2196F3;
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
+        background-color: #757575;
         letter-spacing: 0.06em;
-        color: #FFFFFF}
+        color: #FFFFFF; }
 .main-btn{
     font-family: 'Roboto';
         font-style: normal;
@@ -56,9 +57,9 @@ color: #2196F3;
         line-height: 1.88;
         display: flex;
         letter-spacing: 0.06em;
-        color: #212121;}
-.main-btn:focus,.main-btn:hover{color: #FFFFFF;
-    background-color: #2196F3;}        
+    color: #FFFFFF;
+        background-color: #2196F3;}
+ 
 .about-title{
     font-family: 'Roboto';
         font-style: normal;
@@ -137,3 +138,10 @@ color: #2196F3;
             line-height: 1.88;
             letter-spacing: 0.03em;
             color: #757575;}
+
+.container{
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
