@@ -104,7 +104,6 @@ margin-right: 50px;
         line-height: 1.36;
         letter-spacing: 0.06em;
         color: #FFFFFF;
-        text-align: center;
         text-transform: uppercase;
         padding-top:200px;
         padding-left: 235px;
@@ -114,10 +113,11 @@ margin-right: 50px;
 .main-item .container{
             
         height: 600px;
-        align-items: center;
+       
         }
 .main-item{
     background-color: #2F303A;
+    
 }
 .main-btn
 { 
@@ -131,8 +131,16 @@ margin-right: 50px;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background-color: #2196F3;
-
     }
+.main-list{
+    
+text-align: center;
+}
+.main-list:not(:first-child){
+   
+}
+.main-btn{
+}
 
 /*---------------------ABOUT----------------------*/
 
@@ -314,7 +322,9 @@ padding-bottom: 94px;
 
 .btn-item {
     display: flex;
-    padding-bottom: 50px;
+   justify-content: center;
+   padding-top: 94px;
+   padding-bottom: 34px;
 }
 
 .btn-list {
