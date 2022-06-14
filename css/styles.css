@@ -369,12 +369,12 @@ padding-right: 235px;*/
 
 .btn:hover,.btn:focus{color: #FFFFFF; background-color: #2196F3;}
 
-.button-list{margin-top: 100px;}
+.button-list{margin-top: 94px;}
 
 .btn-item {
     display: flex;
    justify-content: center;
-   padding-bottom: 34px;
+   padding-bottom: 50px;
    
 }
 
@@ -408,6 +408,21 @@ color: #757575;}
    
 }
 
+.pictures-item{
+
+width: 370px;
+height: 404px;
+left: 215px;
+top: 262px;
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
+margin-bottom: 30px;
+}
+
+.pictures-item:nth-child(n+7)
+{
+margin-bottom: 94px;
+}
 
 .pictures-item:nth-child(3n+2)
 {
