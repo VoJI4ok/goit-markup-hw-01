@@ -49,8 +49,8 @@ body {
 .header-nav{
     display: flex;
     align-items: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .header-logo{
 font-family: 'Raleway';
@@ -63,6 +63,11 @@ font-family: 'Raleway';
     margin-right: 93px;
    
 }
+
+.header-span{
+    color: #212121;
+}
+
 .header-list{
     display: flex;
 align-items: center;
@@ -118,12 +123,17 @@ color: #2196F3;
 padding-right: 235px;*/
 .main-item .container{
     
-        padding-top: 300px;
-        padding-bottom: 300px;
+        padding-top: 200px;
+        padding-bottom: 200px;
        text-align: center;
+       
         }
 .main-item{
-    background-color: #2F303A;
+    background-image: url(../images/main_bg.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: 1600px 600px;
+    background-position: 50% 50%;
     
 }
 .main-btn
@@ -148,8 +158,9 @@ padding-right: 235px;*/
 
 /*---------------------ABOUT----------------------*/
 
- 
- .about .container{
+
+
+ .about{
     padding-bottom: 94px;
     padding-top: 94px;
  }
@@ -192,7 +203,7 @@ padding-right: 235px;*/
 }
 
 /*---------------------WORK--------------------*/
-.work .container{
+.work {
     padding-bottom: 94px;
 }
 .work-title{
@@ -220,7 +231,7 @@ padding-right: 235px;*/
 }
 
 /*------------------------TEAM-------------------*/
-.team .container{
+.team {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -249,7 +260,8 @@ padding-right: 235px;*/
 }
 
 .team-content{
- margin-top: 30px;
+ padding-top: 30px;
+ padding-bottom: 30px;
 }
 
 .team-after-title
@@ -277,13 +289,12 @@ padding-right: 235px;*/
 /*-----------------------FOOTER----------------------*/
 .footer {
     background-color: #2F303A;
-
-}
-.footer .container{
-    
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
+
+
     .footer-position
 {
     font-family: 'Roboto';
@@ -319,6 +330,11 @@ padding-right: 235px;*/
     display: flex;
     
 }
+
+.footer-span{
+    color: #FFFFFF;
+}
+
 .footer-list{
     margin-top: 20px;
    
